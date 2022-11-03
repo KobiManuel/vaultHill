@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* General stylings */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container-main {
+  background: white;
+}
+body {
+  background: white;
+  font-family: "Poppins", sans-serif;
+}
+.center-text {
+  text-align: center;
+}
+.navbar-blue-text {
+  color: #002c8a;
+}
+.blue-text-dark {
+  color: #002d8d;
+}
+.grey-text-dark {
+  color: rgba(0, 0, 0, 0.5);
+}
+.grey-text-light {
+  color: rgba(18, 13, 35, 0.6);
+}
+.dark-text {
+  color: #120d23;
+}
+.black-text {
+  color: rgba(0, 0, 0, 0.85);
+}
+.grey-text {
+  color: #a1a1a1;
+}
+.white-text {
+  color: #ffffff;
+}
+.font-small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.font-medium {
+  font-size: 16px;
+}
+.font-medium-mini {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.font-large-mini {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+}
+.font-large {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+}
+.bg-blue-dark {
+  background: #002d8d;
+}
+.bg-blue {
+  background: #3f5dff;
+}
+.bg-white {
+  background: #f9fbff;
+}
+.white-arrow {
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.white-btn{
+  background: #ffffff;
+  padding: 10px 5px;
+border-radius: 10px;
+}
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.gradient-btn {
+  padding: 10px 10px;
+  background: linear-gradient(
+    45.12deg,
+    #4158d0 -10.39%,
+    #c850c0 47.74%,
+    #ffcc70 117.15%
+  );
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 42px;
+}
+.button-transparent {
+  background: none;
+  border: none;
+}
+.blue-arrow {
+  color: #3f5dff;
+  font-size: 18.36px;
+}
+.span-circle {
+  position: relative;
+  border: 0;
+  padding: 0;
+  border-radius: 70%;
+  background-color: #5d34bb;
+  width: 28.88px;
+  height: 28.88px;
+}
+
+.center-icon {
+  position: relative;
+  top: 23%;
+}
+
+.white-space {
+  height: 5%;
+}
+.white-space-btn {
+  height: 8%;
+}

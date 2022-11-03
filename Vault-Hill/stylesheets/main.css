@@ -1,0 +1,365 @@
+.header-logo-blue img {
+  height: 20px;
+  width: 126.66666412353516px;
+}
+.navbar-inner {
+  position: relative;
+  padding: 30px 0;
+}
+.navbar-links ul li {
+  display: inline;
+  padding-right: 30px;
+}
+ul li:last-child {
+  padding-right: 0;
+}
+.navbar-links {
+  position: relative;
+}
+ul {
+  width: fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+.navbar-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar-buttons button {
+  padding: 9px 20px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.navbar-buttons button:last-child {
+  margin-right: 0;
+}
+
+/* Top content area styling */
+.top-content-area {
+  position: relative;
+  z-index: 90;
+}
+.top-content-inner img {
+  height: 601px;
+  width: 601px;
+  position: absolute;
+  z-index: -1;
+  top: -111px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.top-content-description {
+  height: 48px;
+  width: 597px;
+  margin: 0 auto;
+}
+.top-content-title p {
+  line-height: 21px;
+  letter-spacing: 2px;
+}
+.top-content-header {
+  height: 223px;
+  width: 990px;
+  margin: 0 auto;
+}
+.top-content-header h3 {
+  font-size: 74px;
+  font-weight: 500;
+  line-height: 111px;
+}
+.top-content-button {
+  width: fit-content;
+  margin: 48px auto 0;
+}
+.top-content-button button {
+  border-radius: 29.5px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 7px 10px 30px;
+  font-size: 14px;
+}
+.top-content-inner {
+  margin: 207px 0 201px 0;
+  position: relative;
+}
+
+.mouse-icon-container {
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 47px;
+}
+.mouse-circle {
+  position: relative;
+  padding: 0;
+  border-radius: 70%;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid rgba(18, 13, 35, 0.1);
+}
+.mouse-icon {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  font-size: 24px;
+  transform: translate(-50%, 50%);
+}
+
+/* Deposit Crypto layer */
+
+.deposit-crypto-lhs {
+  position: relative;
+}
+.deposit-crypto-lhs-inner {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.astroboy-image {
+  position: relative;
+  width: fit-content;
+  margin-left: 68.26px;
+}
+.astroboy-image img {
+  width: 596.41px;
+  height: 592px;
+}
+.deposit-crypto-rhs-inner {
+  position: relative;
+  padding: 88px 0;
+}
+.astro-float-image {
+  position: absolute;
+  top: -50px;
+  right: 0;
+}
+.astro-float-image img {
+  height: 327.999996px;
+  width: 349.722468px;
+}
+
+/* Vaulthill-cards layer styling */
+.vault-hill-cards {
+  position: relative;
+  height: 768px;
+}
+.vaulthill-cards-inner {
+  padding: 172px 0;
+}
+.analytics-icon {
+  height: 50px;
+  width: 50px;
+}
+.streaming-icon {
+  height: 50px;
+  width: 50px;
+}
+.party-icon {
+  height: 50px;
+  width: 50px;
+}
+.cart-icon {
+  height: 50px;
+  width: 50px;
+}
+.cards-container {
+  height: 187px;
+  width: 389px;
+}
+.cards-container-inner {
+  height: 173px;
+  width: 359px;
+}
+.vaulthill-cards-top-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.vaulthill-cards-bottom-flex {
+  display: flex;
+  flex-direction: row;
+}
+.vaulthill-cards-rhs-header h5 {
+  line-height: 63px;
+}
+.vault-hill-cards-rhs {
+  position: relative;
+}
+.vault-hill-cards-rhs-inner {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 283px;
+}
+.vaulthill-cards-lhs {
+  position: relative;
+}
+
+/* Rocket layer styling */
+.rocket-layer {
+  padding: 100px 0;
+  height: 552px;
+  width: 100%;
+}
+.rocket-layer-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 352px;
+  width: 804px;
+  margin: 0 auto;
+}
+
+.rocket-img-bg img {
+  height: 146px;
+  width: 87.75277709960938px;
+}
+.rocket-layer-title {
+  height: 102px;
+  width: 596px;
+}
+.rocket-layer-description {
+  height: 63px;
+  width: 804px;
+}
+
+/* Partners section stylings */
+
+.partners-section {
+  height: 768px;
+}
+.partners-section-inner {
+  padding: 120px 0;
+}
+.companies-img {
+  background-image: url(../assets/companies.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 56px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.space-gradient {
+  background-image: url(../assets/space-gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 342px;
+  width: 100%;
+}
+.space-gradient-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 47px 103px 0 103px;
+}
+.space-gradient-lhs {
+  width: fit-content;
+}
+.space-gradient-lhs-header {
+  height: 126px;
+  width: 389px;
+}
+.space-gradient-description {
+  height: 42px;
+  width: 492px;
+}
+.space-gradient-rhs-description {
+  height: 42px;
+  width: 286px;
+}
+.space-gradient-rhs-description p {
+  text-align: end;
+}
+.space-gradient-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+}
+.space-gradient-btn button {
+  margin-top: 18px !important;
+}
+
+/* Social media CTA section */
+.social-media-CTA {
+  padding: 50px 0;
+}
+.social-media-CTA-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  margin: 0 auto;
+  height: 162px;
+  width: 804px;
+}
+.social-media-CTA-subtitle {
+  height: 42px;
+}
+.social-media-CTA-icons img {
+  height: 18px;
+  width: 15px;
+}
+.social-media-CTA-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+/* Footer section */
+footer {
+  padding: 50px 0;
+}
+.footer-logo {
+  background-image: url(../assets/logo-blue.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 126.66666412353516px;
+}
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.footer-email-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+input::placeholder {
+  padding-left: 5%;
+  font-family: "Poppins", sans-serif;
+}
+.email-box {
+  height: 40px;
+  width: 182px;
+  background: #ffffff;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    44.7deg,
+    #4158d0 0%,
+    #c850c0 53.7%,
+    #ffcc70 117.83%
+  );
+  border-image-slice: 1;
+}
+.email-btn {
+  height: 40px;
+  width: 40px;
+  background: linear-gradient(
+    44.7deg,
+    #4158d0 0%,
+    #c850c0 53.7%,
+    #ffcc70 117.83%
+  );
+  border-radius: 6px;
+}
